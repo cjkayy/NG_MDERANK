@@ -1,0 +1,419 @@
+15,external control system configuration set
+23,relative path traversal
+36,absolute path traversal
+41,improper resolution path equivalence
+59,improper link resolution file access
+66,improper handle file name identify virtual resource
+73,external control file name path
+76,improper neutralization equivalent special element
+78,improper neutralization special element use o command o command injection
+79,improper neutralization input web page generation cross site script
+88,improper neutralization argument delimiters command argument injection
+89,improper neutralization special element use sql command sql injection
+90,improper neutralization special element use ldap query ldap injection
+91,xml injection aka blind xpath injection
+93,improper neutralization crlf sequence crlf injection
+94,improper control generation code code injection
+96,improper neutralization directive statically save code static code injection
+112,miss xml validation
+115,misinterpretation input
+117,improper output neutralization log
+120,buffer copy without check size input classic buffer overflow
+123,write condition
+124,buffer underwrite buffer underflow
+125,bound read
+128,wrap around error
+129,improper validation array index
+130,improper handle length parameter inconsistency
+131,incorrect calculation buffer size
+134,use externally control format string
+135,incorrect calculation multi byte string length
+140,improper neutralization delimiters
+166,improper handle miss special element
+167,improper handle additional special element
+168,improper handle inconsistent special element
+170,improper null termination
+178,improper handle case sensitivity
+179,incorrect behavior order early validation
+182,collapse data unsafe value
+183,permissive list allow input
+184,incomplete list disallow input
+186,overly restrictive regular expression
+188,reliance data memory layout
+190,integer overflow wraparound
+191,integer underflow wrap wraparound
+192,integer coercion error
+193,one error
+197,numeric truncation error
+198,use incorrect byte order
+201,insertion sensitive information send data
+204,observable response discrepancy
+205,observable behavioral discrepancy
+208,observable timing discrepancy
+209,generation error message contain sensitive information
+212,improper removal sensitive information storage transfer
+213,exposure sensitive information due incompatible policy
+214,invocation process use visible sensitive information
+215,insertion sensitive information debug code
+222,truncation security relevant information
+223,omission security relevant information
+224,obscured security relevant information alternate name
+226,sensitive information resource remove reuse
+229,improper handle value
+233,improper handle parameter
+237,improper handle structural element
+241,improper handle unexpected data type
+242,use inherently dangerous function
+243,creation chroot jail without change work directory
+248,uncaught exception
+250,execution unnecessary privilege
+252,unchecked return value
+253,incorrect check function return value
+256,plaintext storage password
+257,store password recoverable format
+260,password configuration file
+261,weak encode password
+262,use password age
+263,password age long expiration
+266,incorrect privilege assignment
+267,privilege define unsafe action
+268,privilege chain
+270,privilege context switch error
+272,least privilege violation
+273,improper check drop privilege
+274,improper handle insufficient privilege
+276,incorrect default permission
+277,insecure inherit permission
+278,insecure preserve inherit permission
+279,incorrect execution assign permission
+280,improper handle insufficient permission privilege
+281,improper preservation permission
+283,unverified ownership
+288,authentication bypass use alternate path channel
+290,authentication bypass spoof
+294,authentication bypass capture replay
+295,improper certificate validation
+296,improper follow certificate chain trust
+299,improper check certificate revocation
+303,incorrect implementation authentication algorithm
+304,miss critical step authentication
+305,authentication bypass primary weakness
+306,miss authentication critical function
+307,improper restriction excessive authentication attempt
+308,use single factor authentication
+309,use password system primary authentication
+312,cleartext storage sensitive information
+317,cleartext storage sensitive information gui
+319,cleartext transmission sensitive information
+321,use hard cod cryptographic key
+322,key exchange without entity authentication
+323,reuse nonce key pair encryption
+324,use key past expiration date
+325,miss cryptographic step
+328,use weak hash
+331,insufficient entropy
+334,small space random value
+335,incorrect usage seed pseudo random number generator prng
+338,use cryptographically weak pseudo random number generator prng
+341,predictable observable state
+342,predictable exact value previous value
+343,predictable value range previous value
+346,origin validation error
+347,improper verification cryptographic signature
+348,use le trust source
+349,acceptance extraneous untrusted data trust data
+351,insufficient type distinction
+353,miss support integrity check
+354,improper validation integrity check value
+356,product ui warn user unsafe action
+357,insufficient ui warning dangerous operation
+359,exposure private personal information unauthorized actor
+363,race condition enable link follow
+364,signal handler race condition
+365,race condition switch
+366,race condition within thread
+367,time check time use toctou race condition
+368,context switch race condition
+369,divide zero
+372,incomplete internal state distinction
+374,pass mutable object untrusted method
+375,return mutable object untrusted caller
+378,creation temporary file insecure permission
+379,creation temporary file directory insecure permission
+385,covert timing channel
+386,symbolic name map correct object
+390,detection error condition without action
+391,unchecked error condition
+392,miss report error condition
+393,return wrong status code
+394,unexpected status code return value
+395,use nullpointerexception catch detect null pointer dereference
+396,declaration catch generic exception
+397,declaration throw generic exception
+403,exposure file descriptor unintended control sphere file descriptor leak
+408,incorrect behavior order early amplification
+409,improper handle highly compress data data amplification
+410,insufficient resource pool
+412,unrestricted externally accessible lock
+413,improper resource locking
+414,miss lock check
+419,unprotected primary channel
+420,unprotected alternate channel
+421,race condition access alternate channel
+425,direct request force browsing
+426,untrusted search path
+427,uncontrolled search path element
+428,unquoted search path element
+430,deployment wrong handler
+431,miss handler
+432,dangerous signal handler disable sensitive operation
+433,unparsed raw web content delivery
+434,unrestricted upload file dangerous type
+437,incomplete model endpoint feature
+439,behavioral change new version environment
+440,expect behavior violation
+444,inconsistent interpretation http request http request smuggling
+447,unimplemented unsupported feature ui
+448,obsolete feature ui
+449,ui performs wrong action
+450,multiple interpretation ui input
+454,external initialization trust variable data store
+455,non exit fail initialization
+459,incomplete cleanup
+460,improper cleanup throw exception
+462,duplicate key associative list alist
+463,deletion data structure sentinel
+464,addition data structure sentinel
+466,return pointer value outside expect range
+467,use sizeof pointer type
+468,incorrect pointer scaling
+469,use pointer subtraction determine size
+470,use externally control input select class code unsafe reflection
+471,modification assume immutable data maid
+472,external control assume immutable web parameter
+474,use function inconsistent implementation
+475,undefined behavior input api
+476,null pointer dereference
+477,use obsolete function
+478,miss default case switch statement
+479,signal handler use non reentrant function
+480,use incorrect operator
+483,incorrect block delimitation
+484,omit break statement switch
+487,reliance package level scope
+488,exposure data element wrong session
+489,active debug code
+494,download code without integrity check
+497,exposure sensitive system information unauthorized control sphere
+501,trust boundary violation
+502,deserialization untrusted data
+515,covert storage channel
+521,weak password requirement
+523,unprotected transport credential
+524,use cache contain sensitive information
+532,insertion sensitive information log file
+540,inclusion sensitive information source code
+544,miss standardize error handle mechanism
+546,suspicious comment
+547,use hard cod security relevant constant
+549,miss password field mask
+551,incorrect behavior order authorization parse canonicalization
+561,dead code
+562,return stack variable address
+563,assignment variable without use
+565,reliance cooky without validation integrity check
+567,unsynchronized access share data multithreaded context
+570,expression always false
+571,expression always true
+580,clone method without super clone
+581,object model violation one equal hashcode define
+584,return inside finally block
+585,empty synchronize block
+586,explicit call finalize
+587,assignment fix address pointer
+588,attempt access child non structure pointer
+595,comparison object reference instead object content
+597,use wrong operator string comparison
+600,uncaught exception servlet
+601,url redirection untrusted site open redirect
+603,use client side authentication
+605,multiple bind port
+606,unchecked input loop condition
+609,double check locking
+611,improper restriction xml external entity reference
+612,improper authorization index contain sensitive information
+613,insufficient session expiration
+617,reachable assertion
+618,expose unsafe activex method
+619,dangle database cursor cursor injection
+620,unverified password change
+621,variable extraction error
+624,executable regular expression error
+625,permissive regular expression
+627,dynamic variable evaluation
+628,function call incorrectly specify argument
+639,authorization bypass user control key
+640,weak password recovery mechanism forget password
+641,improper restriction name file resource
+643,improper neutralization data within xpath expression xpath injection
+645,overly restrictive account lockout mechanism
+648,incorrect use privilege apis
+649,reliance obfuscation encryption security relevant input without integrity check
+652,improper neutralization data within xquery expression xquery injection
+663,use non reentrant function concurrent context
+676,use potentially dangerous function
+681,incorrect conversion numeric type
+694,use multiple resource duplicate identifier
+695,use low level functionality
+698,execution redirect ear
+708,incorrect ownership assignment
+733,compiler optimization removal modification security critical code
+749,expose dangerous method function
+756,miss custom error page
+763,release invalid pointer reference
+764,multiple lock critical resource
+765,multiple unlocks critical resource
+766,critical data element declare public
+767,access critical private variable via public method
+770,allocation resource without limit throttle
+771,miss reference active allocate resource
+772,miss release resource effective lifetime
+776,improper restriction recursive entity reference dtds xml entity expansion
+778,insufficient log
+779,log excessive data
+783,operator precedence logic error
+786,access memory location start buffer
+787,bound write
+788,access memory location end buffer
+791,incomplete filter special element
+795,filter special element specify location
+798,use hard cod credential
+804,guessable captcha
+805,buffer access incorrect length value
+820,miss synchronization
+821,incorrect synchronization
+822,untrusted pointer dereference
+823,use range pointer offset
+824,access uninitialized pointer
+825,expire pointer dereference
+826,premature release resource expect lifetime
+828,signal handler functionality asynchronous safe
+829,inclusion functionality untrusted control sphere
+831,signal handler function associate multiple signal
+832,unlock resource lock
+833,deadlock
+835,loop unreachable exit condition infinite loop
+836,use password hash instead password authentication
+837,improper enforcement single unique action
+838,inappropriate encode output context
+839,numeric range comparison without minimum check
+841,improper enforcement behavioral workflow
+842,placement user incorrect group
+843,access resource use incompatible type type confusion
+908,use uninitialized resource
+909,miss initialization resource
+910,use expire file descriptor
+911,improper update reference count
+914,improper control dynamically identify variable
+915,improperly control modification dynamically determine object attribute
+916,use password hash insufficient computational effort
+917,improper neutralization special element use expression language statement expression language injection
+920,improper restriction power consumption
+921,storage sensitive data mechanism without access control
+924,improper enforcement message integrity transmission communication channel
+939,improper authorization handler custom url scheme
+940,improper verification source communication channel
+941,incorrectly specify destination communication channel
+1007,insufficient visual distinction homoglyphs present user
+1021,improper restriction render ui layer frame
+1024,comparison incompatible type
+1025,comparison use wrong factor
+1037,processor optimization removal modification security critical code
+1041,use redundant code
+1043,data element aggregate excessively large number non primitive element
+1044,architecture number horizontal layer outside expect range
+1045,parent class virtual destructor child class without virtual destructor
+1046,creation immutable text use string concatenation
+1047,module circular dependency
+1048,invokable control element large number outward call
+1049,excessive data query operation large data table
+1050,excessive platform resource consumption within loop
+1051,initialization hard cod network resource configuration data
+1052,excessive use hard cod literal initialization
+1053,miss documentation design
+1054,invocation control element unnecessarily deep horizontal layer
+1055,multiple inheritance concrete class
+1056,invokable control element variadic parameter
+1057,data access operation outside expect data manager component
+1058,invokable control element multi thread context non final static storable member element
+1060,excessive number inefficient server side data access
+1062,parent class reference child class
+1063,creation class instance within static code block
+1064,invokable control element signature contain excessive number parameter
+1065,runtime resource management control element component build run application server
+1066,miss serialization control element
+1067,excessive execution sequential search data resource
+1068,inconsistency implementation document design
+1069,empty exception block
+1070,serializable data element contain non serializable item element
+1071,empty code block
+1072,data resource access without use connection pooling
+1073,non sql invokable control element excessive number data resource access
+1074,class excessively deep inheritance
+1075,unconditional control flow transfer outside switch block
+1077,float point comparison incorrect operator
+1079,parent class without virtual destructor method
+1080,source code file excessive number line code
+1082,class instance self destruction control element
+1083,data access outside expect data manager component
+1084,invokable control element excessive file data access operation
+1085,invokable control element excessive volume comment code
+1086,class excessive number child class
+1087,class virtual method without virtual destructor
+1088,synchronous access remote resource without timeout
+1089,large data table excessive number index
+1090,method contain access member element another class
+1091,use object without invoke destructor method
+1092,use invokable control element multiple architectural layer
+1094,excessive index range scan data resource
+1095,loop condition value update within loop
+1097,persistent storable data element without associate comparison control element
+1098,data element contain pointer item without proper copy control element
+1099,inconsistent name convention identifier
+1100,insufficient isolation system dependent function
+1101,reliance runtime component generate code
+1102,reliance machine dependent data representation
+1103,use platform dependent third party component
+1104,use unmaintained third party component
+1105,insufficient encapsulation machine dependent functionality
+1106,insufficient use symbolic constant
+1107,insufficient isolation symbolic constant definition
+1108,excessive reliance global variable
+1109,use variable multiple purpose
+1110,incomplete design documentation
+1111,incomplete documentation
+1112,incomplete documentation program execution
+1113,inappropriate comment style
+1114,inappropriate whitespace style
+1115,source code element without standard prologue
+1116,inaccurate comment
+1117,callable insufficient behavioral summary
+1118,insufficient documentation error handle technique
+1119,excessive use unconditional branching
+1121,excessive mccabe cyclomatic complexity
+1122,excessive halstead complexity
+1123,excessive use self modifying code
+1124,excessively deep nesting
+1125,excessive attack surface
+1126,declaration variable unnecessarily wide scope
+1127,compilation insufficient warning error
+1173,improper use validation framework
+1188,insecure default initialization resource
+1220,insufficient granularity access control
+1230,exposure sensitive information metadata
+1235,incorrect use autoboxing unboxing performance critical operation
+1236,improper neutralization formula element csv file
+1240,use cryptographic primitive risky implementation
+1241,use predictable algorithm random number generator
+1265,unintended reentrant invocation non reentrant code via nested call
+1339,insufficient precision accuracy real number
